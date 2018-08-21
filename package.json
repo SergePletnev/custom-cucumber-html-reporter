@@ -1,0 +1,15 @@
+{
+  "name": "custom-cucumber-html-reporter",
+  "version": "1.0.0",
+  "description": "Custom cucumber html reporter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Siarhei Pliatniou",
+  "license": "ISC",
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
