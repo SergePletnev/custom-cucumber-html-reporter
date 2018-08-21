@@ -1,0 +1,9 @@
+### VisualStudioCode ###
+.vscode/*
+
+### Node.s ###
+node_modules/
+
+*.png
+*.log
+*.html
