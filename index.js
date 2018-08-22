@@ -1,11 +1,16 @@
 'use strict';
 
-var reporter = require('./lib/reporter');
+const yargs = require('yargs').argv;
+const reporter = require('./lib/reporter');
 
-function generateReport(options, callback) {
-    return reporter.generate(options, callback);
+function generateReport(options) {
+    return reporter.generate(options);
 }
 
-module.exports = {
-    generate: generateReport
+const pathToReport = (yargs.path) ? yargs.path : './reports/report.json' ;
+let options = {
+    jsonFile: pathToReport,
+    output: './reports/custom_cucumber_report.html'
 };
+
+generateReport(options);

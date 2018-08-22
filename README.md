@@ -12,6 +12,6 @@ npm install
 
 Generate report:
 ```bash
-node index.js --path "<path to cucumber report>"
+node index.js --path "<path to cucumber report (json file)>"
 ```
 This command will generate custom cucumber html report. Parameter 'path' is required.
