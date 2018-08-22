@@ -7,7 +7,7 @@ function generateReport(options) {
     return reporter.generate(options);
 }
 
-const pathToReport = (yargs.path) ? yargs.path : './reports/report_nor.json' ;
+const pathToReport = (yargs.path) ? yargs.path : './reports/report_epam.json' ;
 let options = {
     jsonFile: pathToReport,
     output: './reports/custom_cucumber_report.html'
