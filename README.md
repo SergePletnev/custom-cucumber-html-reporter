@@ -1,6 +1,6 @@
 # custom-cucumber-html-reporter
 
-***Generate Custom Cucumber HTML reports***
+***Generates Custom Cucumber HTML reports***
 
 ## Deploy
 
@@ -14,4 +14,4 @@ Generate report:
 ```bash
 node index.js --path "<path to cucumber report (json file)>"
 ```
-This command will generate custom cucumber html report. Parameter 'path' is required.
+This command will generate report. Parameter 'path' is required.
