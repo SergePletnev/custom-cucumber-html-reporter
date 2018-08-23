@@ -1,0 +1,78 @@
+body{
+	background: #ddd;
+	/* font-weight: 400;
+	font-size: 50px;
+	color: #333;
+    overflow-y: scroll; */
+    /* font: 14px Consolas, Courier, monospace; */
+}
+
+.btn {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(31, 31, 31);
+    font-size: 150%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.panel-heading {
+    padding: 0;
+}
+
+.panel-heading .label-container {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.panel-heading .label-container label {
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.navbar .label-container {
+    position: absolute;
+    right: 10px;
+    top: 14px;
+}
+
+.navbar {
+    margin-bottom: 10px;
+}
+
+.navbar .label {
+    font-size: 20px;
+}
+
+.navbar .project-name {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -100px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #000000;
+    font-weight: bold;
+}
+
+.passed {
+	background-color: #398439;
+}
+
+.failed {
+    color: #fff;
+	background-color: #ac2925;
+}
+
+.skipped {
+	background-color: #d58512;
+}
+
+.time {
+    float: right;
+    font-weight: bold;
+}
